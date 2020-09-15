@@ -9,9 +9,7 @@ modified by chengengyue
 //% icon="\uf1eb" weight=19 color=50
 namespace Mbit_IR {
 
-    /**
-    * initialization
-    */
+  /*
     //% blockId=Mbit_IR_init
     //% blockGap=20 weight=90
     //% block="connect ir receiver to %pin"
@@ -19,7 +17,7 @@ namespace Mbit_IR {
     export function init(pin: Pins): void {
       return
     }
-  /*
+
 
     //% blockId=Mbit_IR_received_event
     //% blockGap=20 weight=89
